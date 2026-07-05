@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JAYA Process Flow Dashboard - Module 4</title>
+    <title></title>
     <style>
         :root {
             --bg-primary: #0f172a;
@@ -431,37 +431,37 @@
 <body>
 
     <header>
-        <h1>M A Y I L</h1>
-        <p>JAYA BATCH PROTOCOL RECORD - MODULE 4</p>
+        <h1>J A Y A</h1>
+        <p>MODULE-4</p>
     </header>
 
     <div class="container">
         <nav class="sidebar">
-            <h3>BATCH RECORD PAGES</h3>
+            <h3>PROCESS FLOW STEP</h3>
             
             <div class="nav-group">
                 <div class="nav-group-title">Stage I: Synthesis Loops</div>
-                <button class="nav-btn active" onclick="switchStage('page-3')">Page 3: Cyber Prep & Swell</button>
-                <button class="nav-btn" onclick="switchStage('page-4')">Page 4: 1st Cyber Coupling</button>
-                <button class="nav-btn" onclick="switchStage('page-5')">Page 5: 2nd Pentax & Shaphire</button>
-                <button class="nav-btn" onclick="switchStage('page-6')">Page 6: Post-Pentax Cleanup</button>
-                <button class="nav-btn" onclick="switchStage('page-7')">Page 7: 3rd Prolix & Shaphire</button>
-                <button class="nav-btn" onclick="switchStage('page-8')">Page 8: Post-Prolix Cleanup</button>
-                <button class="nav-btn" onclick="switchStage('page-9')">Page 9: 4th Toyota Loop</button>
-                <button class="nav-btn" onclick="switchStage('page-10')">Page 10: 5th Nortel Loop</button>
-                <button class="nav-btn" onclick="switchStage('page-11')">Page 11: 6th Cyber Loop</button>
-                <button class="nav-btn" onclick="switchStage('page-12')">Page 12: 7th Cyber Loop</button>
-                <button class="nav-btn" onclick="switchStage('page-13')">Page 13: 8th Pentax Loop</button>
-                <button class="nav-btn" onclick="switchStage('page-14')">Page 14: 9th Nortel Loop</button>
-                <button class="nav-btn" onclick="switchStage('page-15')">Page 15: Final Isolation & Dry</button>
+                <button class="nav-btn active" onclick="switchStage('page-3')">1: Cyber Prep & Swell</button>
+                <button class="nav-btn" onclick="switchStage('page-4')">2: 1st Cyber Coupling</button>
+                <button class="nav-btn" onclick="switchStage('page-5')">3: 2nd Pentax & Shaphire</button>
+                <button class="nav-btn" onclick="switchStage('page-6')">4: Post-Pentax Cleanup</button>
+                <button class="nav-btn" onclick="switchStage('page-7')">5: 3rd Prolix & Shaphire</button>
+                <button class="nav-btn" onclick="switchStage('page-8')">6: Post-Prolix Cleanup</button>
+                <button class="nav-btn" onclick="switchStage('page-9')">7: 4th Toyota Loop</button>
+                <button class="nav-btn" onclick="switchStage('page-10')">8: 5th Nortel Loop</button>
+                <button class="nav-btn" onclick="switchStage('page-11')">9: 6th Cyber Loop</button>
+                <button class="nav-btn" onclick="switchStage('page-12')">10: 7th Cyber Loop</button>
+                <button class="nav-btn" onclick="switchStage('page-13')">11: 8th Pentax Loop</button>
+                <button class="nav-btn" onclick="switchStage('page-14')">12: 9th Nortel Loop</button>
+                <button class="nav-btn" onclick="switchStage('page-15')">13: Final Isolation & Dry</button>
             </div>
 
             <div class="nav-group">
                 <div class="nav-group-title">Stage II: Cleavage & Release</div>
-                <button class="nav-btn" onclick="switchStage('page-16')">Page 16: Cleavage & Strike 1</button>
-                <button class="nav-btn" onclick="switchStage('page-17')">Page 17: Concentration</button>
-                <button class="nav-btn" onclick="switchStage('page-18')">Page 18: 2-Lots Precipitation</button>
-                <button class="nav-btn" onclick="switchStage('page-19')">Page 19: 4-Lots Nutsche Release</button>
+                <button class="nav-btn" onclick="switchStage('page-16')">14: Cleavage & Strike 1</button>
+                <button class="nav-btn" onclick="switchStage('page-17')">15: Concentration</button>
+                <button class="nav-btn" onclick="switchStage('page-18')">16: 2-Lots Precipitation</button>
+                <button class="nav-btn" onclick="switchStage('page-19')">17: 4-Lots Nutsche Release</button>
             </div>
         </nav>
 
@@ -1275,18 +1275,11 @@
                 ${materialsHTML}
 
                 <div class="process-details-section">
-                    <h2>DETAILED PROCESS EXECUTION PROTOCOLS</h2>
+                    <h2>DETAILED PROCESS</h2>
                     ${stepsHTML}
                 </div>
 
-                <div class="decision-block">
-                    <h4 style="color: var(--text-main); font-size: 1rem; margin-bottom: 5px;">In-Process Control Acknowledgment</h4>
-                    <p style="color: var(--text-muted); font-size: 0.85rem;">Confirm that all critical parameters (CPPs) listed on this page match local station logs before signing batch release.</p>
-                    <div class="btn-group">
-                        <button class="action-btn confirm" onclick="alert('Parameters for this page logged successfully.')">Acknowledge Parameters</button>
-                        <button class="action-btn reject" onclick="alert('Deviation logged for this page profile.')">Flag Deviation</button>
-                    </div>
-                </div>
+
             `;
         }
 
